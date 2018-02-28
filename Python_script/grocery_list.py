@@ -1,8 +1,4 @@
 import numpy as np
-import urllib, cStringIO
-
-file = cStringIO.StringIO(urllib.urlopen(URL).read())
-img = Image.open(file)
 
 subscription_key = "#############################"
 assert subscription_key
